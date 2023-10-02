@@ -13,7 +13,7 @@
 <body style="background-color: rgb(238, 236, 242);">
     <font style="color: rgb(46, 46, 47);">
     <header>
-        <nav>
+        <nav style="background-color: black;">
             <!-- Added a style so my navbar log kept to the left and added a left margin for my unordered list so it kept it to 100px from the side and lined up with the logo -->
             <div id="navbar" style="float: left;">
                 <img 
@@ -23,9 +23,9 @@
             </div>
             <div style="margin-left: 100px;">
                 <ul>
-                    <Li><a href="#projects">Projects</a></Li>
-                    <Li><a href="#about">About</a></Li>
-                    <Li><a href="#contact">Contact</a></Li>
+                    <Li><a href="#projects" style="color: aliceblue;">Projects</a></Li>
+                    <Li><a href="#about"  style="color: aliceblue;">About</a></Li>
+                    <Li><a href="#contact"  style="color: aliceblue;">Contact</a></Li>
                 </ul>
             </div>
         </nav>
@@ -33,7 +33,7 @@
 <main>
     <h1>Kettle´s portfolio</h1>
     <!-- Made a section with an id so you could click linkes in ul and move to the correct section. Gave each project a clickable link that opens in a new window. They also have title and alt texts  -->
-    <section id="projects">
+    <section id="projects" style="background-color: #a09ba6;">
             <h2>Projects</h2>
             <ul>
                 <li>
@@ -77,7 +77,7 @@
                 </p>
             </ul>
     </section>
-    <section id="about">
+    <section id="about" style="background-color: #b2acb9;">
         <!-- Added an image and set a fixed size on the image also added a pargraph with width in %  -->
         <h2>About Kjetil "Kettle" H.H</h2>
         <img 
@@ -87,15 +87,17 @@
             title="Representation of Kettle"
         />
         <p style="width: 50%;">
-            The name Kjetil is of Norwegian origin and is typically a male given name. It is derived from the Old Norse name Ketill, which means "cauldron" or "helmet." In Norse mythology and history, a cauldron was often seen as a symbol of strength and protection, and a helmet was a crucial piece of armor for warriors. As such, the name Kjetil can be interpreted to signify qualities like strength, protection, or warrior-like attributes. Names can have various interpretations and associations, but this is one of the common meanings attributed to Kjetil.</p>
+            The name Kjetil is of Norwegian origin and is typically a male given name. It is derived from the Old Norse name Ketill, which means "cauldron" or "helmet." In Norse mythology and history, a cauldron was often seen as a symbol of strength and protection, and a helmet was a crucial piece of armor for warriors. As such, the name Kjetil can be interpreted to signify qualities like strength, protection, or warrior-like attributes. Names can have various interpretations and associations, but this is one of the common meanings attributed to Kjetil.
+        </p>
     </section>
-    <section id="contact">
+    <section id="contact" style="background-color: #c5bfcd;">
         <!-- Added e-mail also added social media images and links to the the sites when clicking on the images. Also added title and alt text -->
         <h2>Contact</h2>
         <p>Ex@example.com</p>
             <div style="float: left;">
                 <a href="https://facebook.com/" target="_blank">
-                    <img src="assets/social/facebook.png" 
+                    <img 
+                        src="assets/social/facebook.png" 
                         width="32px" height="32px" 
                         style="width: 32px;height: 32px;"
                         title="Link to Facebook"
@@ -113,7 +115,7 @@
     </section>
     </font>
 </main>
-    <footer>Copyright &copy;</footer>
+    <footer style="background-color: #e4dcee;">Copyright &copy; 2023</footer>
 </body>
 
 </html>
